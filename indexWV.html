@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Wikipedia Searcher</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+  <!-- Local CSS file-->
+  <link rel="stylesheet" href="CSS_WV.css">
+
+</head>
+<body>
+<div class="searchContent">
+  <p>Search Wikipedia:</p>
+  <div class="row">
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-4">
+  <input class="form-control" type="text" id="search" placeholder="Let the adventure begin!">
+    </div>
+    <div class="col-sm-4">
+    </div>
+  </div>
+  <button class="btn btn-primary" onclick="searchLikeABoss()">Search!</button>
+</div>
+<br>
+<div class="searchResultsData">
+</div>
+<div class="randomWikiArticle">
+  <p>
+  <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="btn btn-primary random">Click here for a random Wikipedia article!</a>
+  </p>
+</div>
+
+
+<!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<!--Local JavaScript file-->
+<script src="JS_WV.js"></script>
+
+</body>
+</html>
